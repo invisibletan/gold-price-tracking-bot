@@ -80,7 +80,7 @@ func sendLineNotify(message string) error {
 }
 
 func formatMessage(today *Today) string {
-	return fmt.Sprintf("Namchiang\n%s/%s\n%s | %s",
+	return fmt.Sprintf("\n%s | %s\n%s | %s\nNamchiang",
 		today.BuyPrice,
 		today.SalePrice,
 		today.GoldSpot,
